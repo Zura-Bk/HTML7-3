@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ka">
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>ფილმების ძებნის ფორმა</title>
+        <link rel="icon" href="images/icon.svg" />
+    </head>
+    <body>
+        <h1>ფილმების ძებნის ფორმა</h1>
+        <form>
+            <label for="search">რა გსურთ ეძებოთ:</label><br />
+            <select id="search" name="search">
+                <option>ფილმი</option>
+                <option>სერიალი</option>
+                <option>ყველაფერი</option>
+            </select>
+            <br />
+            <br />
+            <label for="genre">ჟანრები</label><br />
+            <select id="genre" name="genre">
+                <option>არჩევა...</option>
+                <option>დეტექტივი</option>
+                <option>კომედია</option>
+                <option>ფანტასტიკა</option>
+                <option>დრამა</option>
+                <option>საშინელება</option>
+            </select>
+            <br />
+            <br />
+            <label for="Lang">ენა</label><br />
+            <select id="Lang" name="lang">
+                <option>არჩევა...</option>
+                <option>ქართული</option>
+                <option>ინგლისური</option>
+                <option>ფრანგული</option>
+            </select>
+            <br />
+            <br />
+            <label for="country">ქვეყნები</label><br />
+            <select id="country" name="country">
+                <option>არჩევა...</option>
+                <option>აშშ</option>
+                <option>საქართველი</option>
+                <option>საფრანგეთი</option>
+            </select>
+            <br />
+            <br />
+            <label for="rating">IMDB რეიტინგი: 1-10</label><br />
+            <input id="rating" name="rating" type="numnber" />
+            <br />
+            <br />
+            <label for="relDate">გამოსვლის წელი: 1920-2024</label><br />
+            <input type="number" id="relDate" name="relDate1" />
+            <input type="number" id="relDate" name="relDate2" />
+            <br />
+            <br />
+            <input type="submit" value="ძებნა" />
+        </form>
+    </body>
+</html>
